@@ -23,7 +23,7 @@ worker_processes 4
 # "current" directory that Capistrano sets up.
 working_directory "/www/zhaitx.com" # available in 0.94.0+
 
-APP_PATH = "/var/www/unicorn"
+APP_PATH = "/www/zhaitx.com"
 
 working_directory APP_PATH
 
