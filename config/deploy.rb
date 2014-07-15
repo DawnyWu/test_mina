@@ -11,7 +11,7 @@ require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
 #   branch       - Branch name to deploy. (needed by mina/git)
 set :term_mode, nil
 set :domain, '106.185.29.94'
-set :deploy_to, '/home/zhaitx.com'
+set :deploy_to, '/www/zhaitx.com'
 set :repository, 'git@github.com:superbatironmans5/test_mina.git'
 set :branch, 'master'
 
